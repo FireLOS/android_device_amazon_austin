@@ -1,6 +1,7 @@
 # Kernel
-TARGET_KERNEL_CONFIG := austin_defconfig
-BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+#TARGET_KERNEL_CONFIG := austin_defconfig
+#BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+TARGET_PREBUILT_KERNEL := device/amazon/austin/kernel
 
 # inherit from common mt8127
 -include device/amazon/mt8127-common/BoardConfigCommon.mk
